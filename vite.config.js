@@ -5,5 +5,5 @@ import ghPages from "vite-plugin-gh-pages";
 // https://vite.dev/config/
 export default defineConfig({
   base: "/React-Second-Week-/",
-  plugins: [react()],
+  plugins: [react(), ghPages()],
 });
